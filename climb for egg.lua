@@ -396,31 +396,6 @@ zone1B.MouseButton1Click:Connect(function()
     task.wait(0.5)
 end)
 
-local zone2B = AddButton("HALLOWEN", "zone2", "zone 2")
-zone2B.MouseButton1Click:Connect(function()
-	local player = game:GetService("Players").LocalPlayer
-    local char = player.Character or player.CharacterAdded:Wait()
-    char:PivotTo(CFrame.new(2164.13427734375, 459.2801208496094, 4553.05517578125)) -- X, Y, Z
-    task.wait(0.5)
-    char:PivotTo(CFrame.new(2164.189208984375, 1671.0390625, 4552.99462890625))
-end)
-
-local zone3B = AddButton("HALLOWEN", "zone3", "zone 3")
-zone3B.MouseButton1Click:Connect(function()
-	local player = game:GetService("Players").LocalPlayer
-    local char = player.Character or player.CharacterAdded:Wait()
-    char:PivotTo(CFrame.new(2164.13427734375, 459.2801208496094, 4553.05517578125)) -- X, Y, Z
-    task.wait(1)
-
-    char:PivotTo(CFrame.new(2215.18896484375, 1669.038818359375, 4502.49462890625)) -- X, Y, Z
-    task.wait(1)
-
-
-    char:PivotTo(CFrame.new(2210.173828125, 3742.257080078125, 4549.02099609375)) -- X, Y, Z
-    task.wait(1)
-
-end)
-
 -- >>> PASTE NEW BUTTONS / TOGGLES / DROPDOWNS BELOW THIS LINE <<<
 
 --// ===== FLOATING ICON =====
